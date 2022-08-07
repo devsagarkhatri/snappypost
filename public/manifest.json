@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Snappy Post",
+  "name": "Create sharable Social media posts in a minute !",
   "icons": [
     {
       "src": "favicon.ico",
