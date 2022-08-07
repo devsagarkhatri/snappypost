@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thick;
+    scrollbar-color: #ffffff #0a5c8f;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    /* background:linear-gradient(to bottom,rgba(255,255,255,.6) 0%,transparent 30%,transparent 70%, rgba(255, 255, 255,.6) 100%); */
+    background:linear-gradient(to bottom,rgba(255,255,255,1) 0%,rgba(255, 255, 255,.4) 10%,rgba(255, 255, 255,.4) 90%, rgba(255, 255, 255,1) 100%);
+    border-radius: 10px;
+    border: 0px none #fff;
+  }

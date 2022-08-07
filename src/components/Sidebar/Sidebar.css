@@ -1,0 +1,27 @@
+.semi-border {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right,transparent 0%, #fff 50%, transparent 100%) 100% 1;
+}
+.semi-border-top{
+  border-top: 1px solid;
+  border-image: linear-gradient(to right,transparent 0%, #fff 50%, transparent 100%) 100% 1;
+}
+
+.icon{
+  max-height: 25px;
+  max-width: auto;
+}
+
+.sidebar_menuitem{
+  border-top-right-radius: 23px;
+  border-bottom-right-radius:23px ;
+  filter: opacity(85%);
+  transition: 1.5s;
+  max-width: fit-content;
+}
+
+.sidebar_menuitem:hover{
+  filter: brightness(115%) opacity(100%);
+  transition: 1s;
+}
